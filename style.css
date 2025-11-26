@@ -1,0 +1,76 @@
+/*CSS - Cascading Style Sheet - define styles - design*/
+
+/*how to apply CSS to HTML - what are the ways ?
+CSS selectors
+selector specificity
+chaining selector  t control specificity*/
+
+/*Inline - as an attribute to a target
+in the head
+external*/
+
+h3{
+    color: red;
+}
+
+/* CSS Selectors */
+/* 1. tag - div
+2. class - e.g  .witclass
+3. id - e.g #witid */
+
+/*specificity - ID > class > tag*/
+
+h1{
+    color: blue;
+}
+.witclass{
+    color: green;
+}
+#witid{
+    color: red;
+}
+
+
+
+.blogcard{
+    /* property : value; */
+    width: 250px;
+    height: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin : auto;
+    padding: 40px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(115, 154, 48)
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+
+/* Chaining 
+Chaining with no space */
+
+section.blogcard{
+    color: red;
+}
+
+h3#witid{
+    color: blue;
+}
+
+/*Chaining with space */
+div #blogarticle{
+    color : orange;
+}
+
+
+h5{
+    padding: 20px 1px 8px 10px;
+    margin: 15px 5px 10px 25px;
+}
