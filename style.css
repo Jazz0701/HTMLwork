@@ -74,3 +74,20 @@ h5{
     padding: 20px 1px 8px 10px;
     margin: 15px 5px 10px 25px;
 }
+
+/* h1{
+    position:sticky;
+    top : 0
+} */
+
+/* CSS Positions */
+/* static */
+/* relative */
+/* absolute */
+/* fixed */
+/* sticky */
+
+.blogcontainer{
+    display: flex;
+    flex-direction: column;
+}
